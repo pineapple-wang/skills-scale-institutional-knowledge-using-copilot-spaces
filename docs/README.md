@@ -6,14 +6,13 @@ Welcome! This directory contains living documentation for OctoAcme project manag
 
 OctoAcme operates a structured yet iterative project management framework built on five core principles: **customer-first delivery**, **iterative increments**, **clear ownership**, **data-informed decisions**, and **psychological safety**. 
 
-**Key Characteristics:**
-- **Clear roles and responsibilities**: Project Manager (PM), Product Manager (PdM), Developers, QA/Testing, and Stakeholders each own distinct areas
-- **Defined lifecycle**: Initiation → Planning → Execution → Release → Retrospective & Continuous Improvement
-- **Core artifacts**: Project one-pager, Backlog with acceptance criteria, Risk register, Release plans, and Retrospective notes
-- **Transparent communication**: Deliberate cadence (daily standups, weekly syncs, monthly stakeholder updates) with escalation paths for risks and blockers
-- **Quality embedded throughout**: CI/CD automation, small PRs with code review, comprehensive testing (unit, integration, E2E, security), and pre-release gates
+The organization defines clear roles—Project Manager (PM), Product Manager (PdM), Developers, QA/Testing, and Stakeholders—each with distinct responsibilities that work together across a well-defined lifecycle. Projects move through five phases: **Initiation** (validating business need and stakeholder alignment), **Planning** (breaking work into shippable increments with acceptance criteria), **Execution** (building and testing with daily standups and weekly demos), **Release** (deploying to production with rollback plans), and **Retrospective** (capturing learnings for continuous improvement). This structured approach is anchored by lightweight but comprehensive artifacts like the Project One-pager, Risk Register, and Sprint Backlog.
 
-OctoAcme prioritizes iterative delivery of testable increments, data-driven decision-making, and continuous improvement through structured retrospectives.
+Communication is woven throughout OctoAcme's process with a deliberate cadence designed to maintain alignment without creating excessive meetings. The team rhythm includes daily 15-minute standups focused on progress and blockers, weekly delivery syncs showing progress and flagged risks, and sprint-end demos or reviews. Beyond internal team communication, stakeholder updates occur monthly or at milestone boundaries, with escalation paths defined at three levels: team-level triage, PM escalation to Product Lead and dependent teams, and sponsor-level escalation for business-impacting issues. A single source of truth—typically the project README or release documentation—ensures consistent, transparent status across the organization.
+
+Quality assurance and execution rigor are non-negotiable in OctoAcme's workflow. The team uses GitHub Projects for tracking work through columns (Backlog, Ready, In Progress, In Review, QA, Done), enforces small Pull Requests (≤400 lines when possible), and requires at least one approval before merging. Quality gates include unit tests for new logic, integration tests where applicable, end-to-end smoke tests for critical flows, security scanning in CI, and manual QA for feature acceptance. Pre-release requirements mandate passing CI and security scans, drafted release notes, and documented rollback plans. Metrics tracking—including velocity, burndown, and dashboards for errors and latency—provides visibility into project health and informs mid-course corrections.
+
+Finally, OctoAcme embeds continuous improvement into its culture through structured retrospectives held after each sprint, release, or milestone. Retros follow a consistent format (what went well, what could improve, action items with owners and due dates), are timeboxed to 45–75 minutes, and prioritize 2–3 top improvements to prevent overload. Action items are added to the project backlog with clear success criteria and tracked during weekly PM syncs. This approach transforms tacit team insights into documented, versioned processes—exactly as reflected in the living process documentation stored in this directory.
 
 ## Process Docs Index
 
